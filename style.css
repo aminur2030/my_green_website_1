@@ -49,8 +49,24 @@ nav ul li a:hover{
   background-position: center;
   background-size: cover;
   padding: 200px 0;
+  position: relative;
 }
-.search_icon_parent i{
+
+.search_icon_parent i {
+  color: red;
+  background-color: rgba(2, 2, 247, 0.959);
+  font-size: 25px;
+  width: 50px;
+  height: 40px;
+  display: block;
+  top: 62px;
+  left: 652px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  .search_icon_parent i{
   color: red;
   background-color: rgba(2, 2, 247, 0.959);
   font-size: 25px;
@@ -62,13 +78,14 @@ nav ul li a:hover{
   border-radius: 5px;
   cursor: pointer;
   margin-left: -5px;
-  
-}
-.search_icon_parent input{
-  width: 400px; 
+   
+} */
+.search_icon_parent input {
+  width: 400px;
   font-size: 15px;
   border-radius: 5px;
   padding: 10px 5px;
- 
+  left: 257px;
+  top: 62px;
+  position: absolute;
 }
-  
