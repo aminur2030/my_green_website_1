@@ -9,6 +9,7 @@ nav{
   align-items: center;
   background-color: #1A1244;
   padding: 10px 20px;
+  border-bottom: 4px solid #041add;
 }
 nav img{
   width: 40px;
@@ -35,5 +36,39 @@ nav ul li a:hover{
   background-color: black;
   color: red;
   border-radius: 5px;
+}
+/* hero area code start here */
+.search_icon_parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_icon_parent{
+  background-image: url(images/blog2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+.search_icon_parent i{
+  color: red;
+  background-color: rgba(2, 2, 247, 0.959);
+  font-size: 25px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -5px;
+  
+}
+.search_icon_parent input{
+  width: 400px; 
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px 5px;
+ 
 }
   
