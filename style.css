@@ -102,23 +102,55 @@ main{
 #latest_video_parant{
   display: flex;
   justify-content: space-between;
+  
 }
 .latest_video_text{
   font-size: 25px;
   color: green;
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0px 10px;
+  
 
 }
 .latest_pages{
   color: green;
+  margin-bottom: 30px;
 }
 .latest_pages span{
   color: black;
   background-color: antiquewhite;
-  padding: 5px;
+  padding: 5px; 
   border-radius: 4px;
   margin: 0 10px;
   border: 1px solid #808056;
   cursor: pointer;
+}
+#single_item_parent{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 60px;
+  grid-column-gap:20px ;
+}
+.single_items{
+  height: 220px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.single_items img{
+  width: 100%;
+  height: 100%;  
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+.single_items div{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin-top: 10px;
+}
+.single_items:hover img{
+  transform: scale(1.1);
+  border-radius: 5px;
+
 }
