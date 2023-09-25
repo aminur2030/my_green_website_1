@@ -91,3 +91,34 @@ nav ul li a:hover{
   top: 62px;
   position: absolute;
 }
+/* main tag code start here */
+main{
+  background-color: #2d236a;
+  padding: 50px 0;
+  width: 1000px;
+  margin: 0 auto;
+ 
+}
+#latest_video_parant{
+  display: flex;
+  justify-content: space-between;
+}
+.latest_video_text{
+  font-size: 25px;
+  color: green;
+  font-weight: bold;
+  margin: 0 10px;
+
+}
+.latest_pages{
+  color: green;
+}
+.latest_pages span{
+  color: black;
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 0 10px;
+  border: 1px solid #808056;
+  cursor: pointer;
+}
