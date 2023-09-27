@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* nav code start from here */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1244;
+  padding: 10px 20px;
+  border-bottom: 4px solid #041add;
+  position: sticky;
+  top: 0;
+}
+nav img{
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav ul {
+ display: flex; 
+}
+nav ul li{
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+nav ul li a{
+  text-decoration: none;  
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  background-color: black;
+  color: red;
+  border-radius: 5px;
+}
+/* nav code finished here */
+main{
+  background-color: #2d236a;
+  padding: 50px 0;
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+ 
+}
+#latest_video_parant{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.latest_video_text{
+  font-size: 25px;
+  color: green;
+  font-weight: bold;
+  margin: 0px 10px;
+  
+
+}
+.latest_pages{
+  color: green;
+  margin-bottom: 30px;
+}
+.latest_pages span{
+  color: black;
+  background-color: antiquewhite;
+  padding: 5px; 
+  border-radius: 4px;
+  margin: 0 10px;
+  border: 1px solid #808056;
+  cursor: pointer;
+}
+#single_item_parent{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 60px;
+  grid-column-gap:20px ;
+}
+.single_items{
+  height: 220px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.single_items img{
+  width: 100%;
+  height: 100%;  
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+.single_items div{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin-top: 10px;
+}
+.single_items:hover img{
+  transform: scale(1.1);
+  border-radius: 5px;
+
+}
+#previous_next_parent{
+  display: flex;
+ justify-content:space-between ;
+ margin-top: 50px;  
+}
+#previous_next_parent a{
+  text-decoration: none;
+  color: #fff;
+}
+#previous_next_parent h3 a{
+background-color: green;
+padding: 10px 13px;
+margin: 0 5px;
+transition: 0.5s;
+border-radius: 5px;
+}
+#previous_next_parent h3 a:hover{
+  background-color: rgb(23, 95, 23);
+}
+#previous_next_parent div a{
+  margin: 0 10px;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#previous_next_parent div a:first-child{
+  background-color: green;
+  color: #fff;
+}
