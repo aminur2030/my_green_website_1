@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/* nav code start here */
+/* navigation bar code start here */
 nav{
   display: flex;
   justify-content: space-between;
@@ -39,56 +39,56 @@ nav ul li a:hover{
   color: red;
   border-radius: 5px;
 }
-/* nav code finished here */
-#article_container{
-  width: 1000px;
-  margin: 0 auto;
-  
-  
+form{
+  width: 800px;
+  background-color: #0fb9b1;
+  margin: 80px auto;
+  padding: 40px 0;
+  box-shadow: 12px 12px 12px #2c3e50;
 }
-#blog_parent{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 40px;
-padding:  50px;
-
-
-}
-.single_image_div{
-  height: 400px;
- 
- 
-}
-.single_image_div img{
-  height: 100%;
- width: 100%;
-}
-.articl_title{
-  color: green;
-  font-size: 40px;
+form h2{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  font-weight: bold;  
-}
-.articl_title span{
-  color: red;
-}
-.single_blog{
-  box-shadow: 5px 5px 5px gray;
-}
-.single_text_div{
-  padding: 20px 30px;
-}
-.single_text_div a{
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-}
-.single_text_div h3{
-  color: brown;
+  margin-bottom: 20px;
   font-variant: small-caps;
+  font-size: 30px;
 }
+#name_email_parent input{
+  display: block;
+  margin: 20px auto;
+  width: 400px;
+  height: 30px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+form textarea{
+  margin: auto;
+  display: block;
+  width: 400px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.form_submit-button{
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  padding: 10px 30px;
+  width: 400px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  color:#34495e ;
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+  cursor: pointer;
+  /* background: linear-gradient(to right,
+   green,red,rgb(126, 126, 21)); */
+   background: linear-gradient(-90deg,rgb(39, 30, 172),rgb(3, 241, 3),rgb(150, 150, 31));
+}
+
 /* Footer code start from here. */
 footer{
   background-color: #5F1E69;
