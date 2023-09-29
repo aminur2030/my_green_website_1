@@ -46,6 +46,7 @@ nav ul li a:hover{
   align-items: center;
 }
  header{
+  
   background-image: url(images/blog2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -79,7 +80,7 @@ nav ul li a:hover{
 main{
   background-color: #2d236a;
   padding: 50px 0;
-  width: 1100px;
+  width: 1010px;
   margin: 0 auto;
   padding-bottom: 100px;
  
@@ -94,12 +95,14 @@ main{
   color: green;
   font-weight: bold;
   margin: 0px 10px;
+  margin-left: 50px;
   
 
 }
 .latest_pages{
   color: green;
   margin-bottom: 30px;
+  margin-right: 100px;
 }
 .latest_pages span{
   color: black;
@@ -111,13 +114,17 @@ main{
   cursor: pointer;
 }
 #single_item_parent{
+ 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-row-gap: 60px;
-  grid-column-gap:20px ;
+  grid-column-gap:20px;
+  /* width: 1000px; */
+  
 }
 .single_items{
   height: 220px;
+  width: 220px;
   border: 2px solid gray;
   border-radius: 5px;
 }
@@ -133,6 +140,7 @@ main{
   justify-content: space-between;
   color: gray;
   margin-top: 10px;
+ 
 }
 .single_items:hover img{
   transform: scale(1.1);
